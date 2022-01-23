@@ -1,0 +1,25 @@
+{
+    "name": "slash-theme",
+    "displayName": "Slash Theme",
+    "description": "Cool themes from Slash",
+    "version": "0.0.1",
+    "author": "Slash",
+    "publisher": "SlashDEV",
+    "license": "MIT",
+    "homepage": "-",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Slash Super Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/super-dark.json"
+            }
+        ]
+    }
+}
