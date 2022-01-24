@@ -1,12 +1,6 @@
-# Lava Dragon Theme
-lava-dragon-dark+-extension-theme
+<span>
+<img src="https://img.shields.io/badge/slashDEV-slashthemes-red">
+<img alt="GitHub" src="https://img.shields.io/github/license/zer0less/slashtheme">
+</span>
 
-A theme for more than you can imagine!
-- JS
-- Python
-- HTML
-- CSS
-- JSON
-- Java
-- TS
-- ... and more!
+# Slash Themes
