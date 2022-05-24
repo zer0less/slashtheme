@@ -2,7 +2,7 @@
     "name": "slash-theme",
     "displayName": "Slash Theme",
     "description": "Cool themes from Slash",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Slash",
     "publisher": "SlashDEV",
     "license": "MIT",
@@ -16,9 +16,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Slash Super Dark",
+                "label": "Super Dark Red",
                 "uiTheme": "vs-dark",
-                "path": "./themes/super-dark.json"
+                "path": "./themes/super-darkred.json"
             }
         ]
     }
