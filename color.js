@@ -1,6 +1,7 @@
 var themes = {
     "super-dark-red": {
         "black": "#000000",
+        "blacktran": "#1608087f",
         "lightblack": "#1a1a1a",
         "darklightred": "#b91212",
         "darkred": "#860b04",
@@ -16,7 +17,7 @@ var themes = {
     },
 
     "super-light": {
-        "white": "#000000",
+        "white": "#FFFFFF",
         "darklightred": "#b91212",
         "darkred": "#860b04",
         "red": "#FF1A0D",
