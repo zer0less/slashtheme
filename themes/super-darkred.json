@@ -3,35 +3,22 @@
 	  "$schema": "vscode://schemas/color-theme",
 	  "type": "dark",
 	  "colors": {
-// bar at the left
-		"activityBar.background": "#000000",
-		"activityBar.border": "#000000",
-		"activityBar.foreground": "#FF1A0D",
-		"activityBarBadge.background": "#b91212",
-		"activityBarBadge.foreground": "#000000",
-
-		"badge.background": "#000000",
-		"badge.foreground": "#B529FE",
-
+// bar between editor and tabs
 		"breadcrumb.activeSelectionForeground": "#B529FE",
 		"breadcrumb.background": "#000000",
 		"breadcrumb.focusForeground": "#FF1A0D",
-		"breadcrumb.foreground": "#FFAC43",
+		"breadcrumb.foreground": "#b91212",
 		"breadcrumbPicker.background": "#000000",
 
-		"button.background": "#B529FE7f",
 		"contrastBorder": "#B529FE40",
 		"debugToolBar.background": "#000000",
-
-		"dropdown.background": "#000000",
-		"dropdown.border": "#FF6C6C10",
-
+// editor
 		"editor.background": "#1a1a1a",
+		"editor.foreground": "#FF1A0D",
 		"editor.findMatchBackground": "#000000",
 		"editor.findMatchBorder": "#ac25f593",
 		"editor.findMatchHighlightBackground": "#B529FE93",
 		"editor.findMatchHighlightBorder": "#FF6C6C30",
-		"editor.foreground": "#FF1A0D",
 		"editor.lineHighlightBackground": "#00000050",
 		"editor.selectionBackground": "#E93BFF30",
 		"editor.selectionHighlightBackground": "#B529FE6b",
@@ -94,8 +81,13 @@
 		"gitDecoration.modifiedResourceForeground": "#FF8D00",
 		"gitDecoration.untrackedResourceForeground": "#E93BFF",
 
-		"input.background": "#464646",
-		"input.border": "#FF6C6C10",
+		"dropdown.background": "#000000",
+		"dropdown.border": "#1a1a1a",
+		"button.background": "#000000",
+		"button.foreground": "#FF1A0D",
+
+		"input.background": "#000000",
+		"input.border": "#1a1a1a",
 		"input.foreground": "#FF1A0D",
 		"input.placeholderForeground": "#FF1A0D60",
 		"inputOption.activeBackground": "#FF1A0D30",
@@ -104,7 +96,7 @@
 		"inputValidation.infoBorder": "#E93BFF50",
 		"inputValidation.warningBorder": "#FF8D0050",
 
-		"list.activeSelectionBackground": "#000000",
+		"list.activeSelectionBackground": "#1a1a1a",
 		"list.activeSelectionForeground": "#B529FE",
 		"list.focusBackground": "#1a1a1a",
 		"list.focusForeground": "#E93BFF",
@@ -125,18 +117,9 @@
 		"menu.selectionBorder": "#00000030",
 		"menu.selectionForeground": "#FF1A0D",
 		"menu.separatorBackground": "#FF1A0D",
-		
 		"menubar.selectionBackground": "#1a1a1a",
 		"menubar.selectionBorder": "#B529FE7f",
 		"menubar.selectionForeground": "#FF1A0D",
-// bar at the right
-		"minimap.background": "#000000",
-		"minimapGutter.addedBackground": "#FFD827",
-		"minimapGutter.deletedBackground": "#FF8D00",
-		"minimapGutter.modifiedBackground": "#990404",
-		"minimapSlider.activeBackground": "#860b047f",
-		"minimapSlider.background": "#860b047f",
-		"minimapSlider.hoverBackground": "#b912127f",
 
 		"notificationLink.foreground": "#B529FE",
 		"notifications.background": "#000000",
@@ -145,26 +128,21 @@
 		"panel.background": "#000000",
 		"panel.border": "#000000",
 		"panelTitle.activeBorder": "#B529FE",
-		"panelTitle.activeForeground": "#FF6C6C",
-		"panelTitle.inactiveForeground": "#FF1A0D",
-
-		"peekView.border": "#00000030",
-		"peekViewEditor.background": "#FF1A0D05",
+		"panelTitle.activeForeground": "#FF1A0D",
+		"panelTitle.inactiveForeground": "#990404",
+// The box when chaging a file
+		"peekView.border": "#000000",
+		"peekViewEditor.background": "#1a1a1a",
 		"peekViewEditor.matchHighlightBackground": "#B529FE7f",
 		"peekViewEditorGutter.background": "#FF1A0D05",
 		"peekViewResult.background": "#FF1A0D05",
 		"peekViewResult.matchHighlightBackground": "#a80ffa",
 		"peekViewResult.selectionBackground": "#a80ffa90",
-		"peekViewTitle.background": "#FF1A0D05",
-		"peekViewTitleDescription.foreground": "#860b04",
+		"peekViewTitle.background": "#1a1a1a7f",
+		"peekViewTitleDescription.foreground": "#FF1A0D",
 
 		"pickerGroup.foreground": "#B529FE",
 		"progressBar.background": "#B529FE",
-// scroolbar
-		"scrollbar.shadow": "#000000",
-		"scrollbarSlider.activeBackground": "#B529FE7f",
-		"scrollbarSlider.background": "#B529FE7f",
-		"scrollbarSlider.hoverBackground": "#a80ffa7f",
 
 		"selection.background": "#a80ffa",
 // the settings
@@ -172,12 +150,34 @@
 		"settings.checkboxForeground": "#FF1A0D",
 		"settings.dropdownBackground": "#000000",
 		"settings.dropdownForeground": "#FF1A0D",
-		"settings.headerForeground": "#B529FE",
+		"settings.headerForeground": "#FF1A0D",
 		"settings.modifiedItemIndicator": "#B529FE",
 		"settings.numberInputBackground": "#000000",
 		"settings.numberInputForeground": "#FF1A0D",
 		"settings.textInputBackground": "#000000",
 		"settings.textInputForeground": "#FF1A0D",
+// bar at the left
+		"activityBar.background": "#000000",
+		"activityBar.border": "#000000",
+		"activityBar.foreground": "#FF1A0D",
+		"activityBarBadge.background": "#b91212",
+		"activityBarBadge.foreground": "#000000",
+
+		"badge.background": "#000000",
+		"badge.foreground": "#B529FE",
+// the map (right editor)
+		"minimap.background": "#000000",
+		"minimapGutter.addedBackground": "#FFD827",
+		"minimapGutter.deletedBackground": "#FF8D00",
+		"minimapGutter.modifiedBackground": "#990404",
+		"minimapSlider.activeBackground": "#860b047f",
+		"minimapSlider.background": "#860b047f",
+		"minimapSlider.hoverBackground": "#b912127f",
+// scroolbar
+		"scrollbar.shadow": "#000000",
+		"scrollbarSlider.activeBackground": "#B529FE7f",
+		"scrollbarSlider.background": "#B529FE7f",
+		"scrollbarSlider.hoverBackground": "#a80ffa7f",
 // bar with folders and files
 		"sideBar.background": "#000000",
 		"sideBar.border": "#B529FE",
@@ -187,13 +187,13 @@
 		"sideBarSectionHeader.foreground": "#E93BFF",
 		"sideBarTitle.foreground": "#FF1A0D",
 // bar at the bottom
-		"statusBar.background": "#FF1A0D",
+		"statusBar.background": "#000000",
 		"statusBar.border": "#000000",
-		"statusBar.foreground": "#000000",
-		"statusBar.debuggingBackground": "#FF8D00",
-		"statusBar.debuggingForeground": "#FF6C6C",
+		"statusBar.foreground": "#FF1A0D",
+		"statusBar.debuggingBackground": "#000000",
+		"statusBar.debuggingForeground": "#860b04",
 		"statusBar.noFolderBackground": "#000000",
-		"statusBarItem.hoverBackground": "#990404",
+		"statusBarItem.hoverBackground": "#FF1A0D7f",
 		"statusBarItem.remoteBackground": "#B529FE",
 		"statusBarItem.remoteForeground": "#000000",
 // the tabs (above editor)
@@ -209,7 +209,7 @@
 		"tab.unfocusedActiveForeground": "#860b04",
 		"tab.unfocusedInactiveBackground": "#000000",
 		"tab.unfocusedInactiveForeground": "#860b04",
-// the terminal colors
+// the terminal
 		"terminal.ansiBlack": "#000000",
 		"terminal.ansiBlue": "#E93BFF",
 		"terminal.ansiBrightBlack": "#B529FE",
@@ -227,7 +227,7 @@
 		"terminal.ansiWhite": "#FF6C6C",
 		"terminal.ansiYellow": "#FF8D00",
 		"terminalCursor.background": "#000000",
-		"terminalCursor.foreground": "#FF8D00",
+		"terminalCursor.foreground": "#FF1A0D",
 
 		"textLink.activeForeground": "#FF1A0D",
 		"textLink.foreground": "#B529FE",
@@ -236,7 +236,7 @@
 		"titleBar.activeForeground": "#FF1A0D",
 		"titleBar.border": "#000000",
 		"titleBar.inactiveBackground": "#000000",
-		"titleBar.inactiveForeground": "#B529FE",
+		"titleBar.inactiveForeground": "#990404",
 
 		"tree.indentGuidesStroke": "#0f0f0f",
 		"widget.shadow": "#000000",
